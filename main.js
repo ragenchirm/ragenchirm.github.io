@@ -29,7 +29,7 @@ buttonMagenta.onclick=function(){
 }
 
 //********************La popup******************
-setTimeout(displayPopUp, 1000);
+setTimeout(displayPopUp, 10000);
 
 function displayPopUp(){
   /*OuvrirPopup('popup.html', 'salut-toi', 'resizable=no, location=no, width=400, height=100, menubar=no, status=no, scrollbars=no, menubar=no')*/

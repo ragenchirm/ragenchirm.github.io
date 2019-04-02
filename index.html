@@ -1,67 +1,71 @@
-
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="fr" dir="ltr">
 <head>
-  
-  <meta charset="utf-8" meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="style.css" />
-  <title>Better motherfucking website</title>
+  <meta charset="utf-8">
+  <title>Mock-up de la page d'accueil de google</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
+
   <header>
-    <h1>This is <em>still</em> a motherfucking website.</h1>
-    <p>And it's more fucking perfect than the last guy's.</p>
-    <button id="btnMagenta">Psychedelic Background</button>
+    <nav id="topNav">
+      <div class="topNavContainer">
+        <div class="buttonGroup">
+          <a class="topNavLink" href="https://www.google.com/intl/fr/gmail/about/#">Gmail</a>
+
+          <a id="imagesLink" class="topNavLink" href="https://www.google.fr/imghp?hl=fr&tab=wi">Images</a>
+
+          <img src="Images/buttons.png" alt="">
+          <form action="https://accounts.google.com/signin/v2/identifier?hl=fr&passive=true&continue=https%3A%2F%2Fwww.google.fr%2F&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+            <input   id="connexion" type="submit" name="button" value="Connexion">
+
+          </form>
+        </div>
+      </div>
+    </nav>
   </header>
 
-  <section>
-    <h2>Seriously, it takes minimal fucking effort to improve this shit.</h2>
-    <p><strong>7 fucking declarations.</strong></p>
-    <p>That's how much CSS it took to turn that <a href="http://motherfuckingwebsite.com">grotesque pile of shit</a> into this easy-to-read masterpiece. It's so fucking simple and it still has all the glory of the original perfect-ass website:</p>
 
-    <ul>
-      <li>Shit's <em>still</em> lightweight and loads fast</li>
-      <li><em>Still</em> fits on all your shitty screens</li>
-      <li><em>Still</em> looks the same in all your shitty browsers</li>
-      <li>The motherfucker's <em>still</em> accessible to every asshole that visits your site</li>
-      <li>Shit's <em>still</em> legible and gets your fucking point across</li>
-    </ul>
 
-    <h3>And guess what, motherfucker:</h3>
-    <p>You never knew it, but it's easy to improve readability on your site. Here's how.</p>
+  <main>
+    <div class="googleImage">
+      <img id="logo" src="Images/googleLogo.png" alt="Google">
+    </div>
+    <form method="get" action="">
+      <div class="searchField">
+        <input type="text" name="Rechercher" title="Rechercher">
+        <i class="fas fa-microphone"></i>
+      </div>
+      <div class="launchButtons">
+        <button type="submit" name="submit">Recherche Google</button>
+        <button type="button" name="lucky">J'ai de la chance</button>
+      </div>
+    </form>
+  </main>
 
-    <h2>Let it breathe</h2>
-    <p>Look at lines 1 and 2 of some shitty website you're building. Assuming they're not married they probably shouldn't be humping. The defaults are trash -- pick a minimum <code>line-height: 1.4</code> for body copy. Headings should be tighter. If you can't see that...piss off.</p>
-    <p>If your text hits the side of the browser, fuck off forever. You ever see a book like that? Yes? What a shitty book.</p>
-
-    <h2>A little less contrast</h2>
-    <p>Black on white? How often do you see that kind of contrast in real life? Tone it down a bit, asshole. I would've even made this site's background a nice <code>#EEEEEE</code> if I wasn't so focused on keeping declarations to a lean 7 fucking lines.</p>
-
-    <h2>Size Matters</h2>
-    <p>I know your partner says otherwise, but it's true. Bump that body copy to render close to 16px or more. Smaller type works well for print, not the screen.</p>
-
-    <h2>Line-width, motherfucker</h2>
-    <p>Looking at an LCD screen is strainful enough. Don't make me read a line of text that's 200 fucking characters long. Keep it to a nice 60-80 and users might actually read more than one sentence of your worthless dribble.</p>
-
-    <h3>Yes, this is <em>also</em> fucking satire, you fuck</h3>
-    <p>I love what the creator of <a href="http://motherfuckingwebsite.com">this site's inspiration</a> did. What I'm saying is that it's so, so simple to make sites easier to read. Websites are broken by default, they are functional, high-performing, and accessible, but they're also fucking ugly. You and all the other web designers out there need to make them not total shit.</p>
-
-    <blockquote cite="http://bettermotherfuckingwebsite.com/">
-      "You're a fucking moron if you use default browser styles."
-      <br> - Eleanor Roosevelt
-    </blockquote>
-
-    <hr>
-
-    <h2>Epilogue</h2>
-    <p>Inspired by the geniuses behind <a href="http://motherfuckingwebsite.com">motherfuckingwebsite.com</a> and <a href="http://txti.es/">txti</a>.</p>
-    <p>This page—that isn't a total fucking eyesore—was created by <a href="https://twitter.com/drew_mc">me</a> with help from <a href="https://twitter.com/gabehammersmith">him</a>.</p>
-
-  </section>
 
   <footer>
+    <nav >
+      <div class="topFootDiv">
+        <p>France</p>
+      </div>
+      <div class="bottomnFootDiv">
+        <div class="leftPartDiv">
+          <a href="https://ads.google.com/intl/fr_fr/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1">Publicité</a>
+          <a href="https://www.google.fr/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1#?modal_active=none">Entreprise</a>
+          <a href="https://about.google/intl/fr_fr/?utm_source=google-FR&utm_medium=referral&utm_campaign=hp-footer&fg=1">A propos</a>
+        </div>
 
+        <div class="rightPartDiv">
+          <a href="https://support.google.com/websearch/answer/7585859?p=fr_consumer_info&hl=fr&fg=1&visit_id=636898030731974674-3179234389&rd=1">Info consommateurs</a>
+          <a href="https://policies.google.com/privacy?hl=fr&gl=fr">Confidentialité</a>
+          <a href="https://policies.google.com/terms?hl=fr&gl=fr">Conditions</a>
+          <a href="https://www.google.fr/preferences?hl=fr">Paramètres</a>
+        </div>
+
+      </div>
+    </nav>
   </footer>
-    <script src="main.js"></script>
 </body>
 </html>

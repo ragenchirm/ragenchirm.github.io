@@ -1,13 +1,166 @@
-body{
-  color : #464646;
- max-width: 650px;
- margin :40px auto;
- line-height: 1.6;
- font-size:18px;
- padding:0 10px;
-
+*
+{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
 }
 
-h1,h2,h3,h4,h5,h6{
-  line-height:1.2
+a:hover,a:focus,a:active{
+  text-decoration: underline;
+}
+header{
+  height: 10vh;
+}
+footer {
+  height: 15vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer>nav>div{
+  border: 1px solid rgb(227,227,227);
+  height: 7.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:rgb(242,241,242);
+}
+
+#topNav{
+  display:flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.buttonGroup{
+  display:flex;
+  align-items: center;
+  padding-right: 30px;
+}
+
+#imagesLink{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#imagesLink + img
+{
+  cursor: pointer;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 71vh;
+}
+.launchButtons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.bottomnFootDiv{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  color: #5f6368;
+  align-items: center;
+}
+.bottomnFootDiv a, .bottomnFootDiv a:visited{
+  color: #5f6368;
+  padding-left: 27px;
+}
+
+
+#connexion{
+  margin-left: 15px;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  color: #FFF;
+  background: #BBB;
+  line-height: 28px;
+  padding: 0 12px;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+
+  font-weight: bold;
+}
+
+.topNavLink{
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  color: #222222;
+}
+#logo{
+  width:272px;
+  height: 92px;
+}
+
+main>form>div.searchField
+{
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 22px;
+    padding: 5px 8px 0 20px;
+    height: 39px;
+    width: 35vw;
+    margin-top: 30px;
+}
+
+main>form>div.searchField:hover,
+main>form>div.searchField:active,
+main>form>div.searchField:focus
+{
+  box-shadow: .5px .5px 10px #BBB;
+}
+
+main>form>div.searchField>input[type="text"],
+main>form>div.searchField>input[type="text"]:active,
+main>form>div.searchField>input[type="text"]:focus
+{
+  border: none;
+  height: 34px;
+  width: 90%;
+  font-size: 16px;
+  outline: none;
+}
+
+main>form>.launchButtons>button
+{
+  cursor: pointer;
+  border: none;
+  background: rgb(242,241,242);
+  margin: 20px 5px;
+  padding: 10px;
+  border-radius: 5px;
+  color: rgba(0,0,0, .5);
+  font-size: 14px;
+}
+
+main>form>.launchButtons>button:hover,
+main>form>.launchButtons>button:focus,
+main>form>.launchButtons>button:active
+{
+  border: 1px solid #BBB;
+  color: black;
+  margin: 18px 4px;
+}
+
+
+.topFootDiv{
+  color:rgba(0,0,0,.54);
+  font-family: arial, sans-serif;
+  padding-left: 27px;
+  font-size: 15px;
+  /*border: 1px solid black;*/
+}
+
+.rightPartDiv
+{
+  padding-right: 20px;
 }

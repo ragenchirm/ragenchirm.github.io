@@ -1,6 +1,9 @@
-Here is an improved copy of bettermotherfuckingwebsite.
-If you want a fully funtionning website, please enable popup for this website.
+# landing-page-google
 
-Here is the link to prod version:
+## Team :  
+- GAGNAIRE Noel  
+- ROBERT Cédric  
 
-http://ragenchirm.github.io
+For production version please go to :
+
+https://ragenchirm.github.io/
